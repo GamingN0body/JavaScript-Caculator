@@ -28,8 +28,6 @@ function math() { //to see the code put "math()" in the console
 
     else if (sign.toLowerCase() === "x" || "*") { //.toLowerCase will make any letter convert to be lower case
         sum = n1 * n2;
-
-
-    } 
-    document.getElementById(`math`).innerHTML = sum
+    }
+    document.getElementById(`math`).innerHTML = sum //sorta replaces the document.write
 }
